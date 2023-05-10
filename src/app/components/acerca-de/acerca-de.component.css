@@ -1,0 +1,43 @@
+/* Color de la fuente */
+*{
+    color: aliceblue;
+}
+.row{
+    padding: 35px;
+}
+div{
+    background-color: #2E86C1;
+    text-align: center;
+}
+h1{
+    color: #160f03;
+}
+/* Mi nombre */
+ #nombre{
+    font-size: 1.5em;
+    margin-top: 20px;
+    font-style:oblique;
+} 
+/* Estilo foto de perfil */
+@media (min-width: 575px) {
+    #fotoPerfil{
+        position:static;
+        width: 80%;
+        border-radius: 250%;
+        box-shadow: 3px 3px 3px #831e1e;
+        left: 100px;
+        top: 180px;
+    }  
+} 
+    @media (max-width: 575px) {
+        #fotoPerfil{
+            position: static;
+            width: 15%;
+            border-radius: 250%;
+            box-shadow: 3px 3px 3px #F5B041;
+            left: 100px;
+            top: 950px;   
+    /*faltan media queries*/
+} 
+} 
+    
